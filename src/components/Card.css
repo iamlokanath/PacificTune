@@ -1,0 +1,51 @@
+
+div.pacificgallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.pacificdesc {
+  padding: 15px;
+  text-align: center;
+}
+
+ 
+
+.pacificresponsive {
+  margin: 5px 10px 5px 10px;
+  padding: 16px 6px;
+  float: left;
+  width: 22.99999%;
+  background-color: #1d1d1d;
+  /* margin: 0 0.5rem; */
+}
+
+.pacificresponsive:hover{
+  background-color: #2d2a2a;
+  
+}
+
+@media only screen and (max-width: 700px) {
+  .pacificresponsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .pacificresponsive {
+    width: 100%;
+  }
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pacificdesc{
+  color: white;
+}
+
